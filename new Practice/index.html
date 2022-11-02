@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load 2 Practice</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body id="hero">
+    <header id="mainNav">
+        <h3 class="logo">BOT</h3>
+        <nav class="containerLogo">
+            <button id="hamburger"><span>🍔</span><span>❌</span></button>
+            <ul id="nav">
+                <li class="active">Home</li>
+                <li>About</li>
+                <li>Visit</li>
+                <li>Display</li>
+                <li>Value</li>
+            </ul>
+    </header>
+    <div class="main-container">
+        <div class="container">
+            <img class="image" src="../images/placeHolder.png" data-src="../images/one.jpg" alt="Image">
+        </div>
+        <div class="container">
+            <img class="image" src="../images/placeHolder.png" data-src="../images/two.jpg" alt="Image">
+        </div>
+        <div class="container">
+            <img class="image" src="../images/placeHolder.png" data-src="../images/three.jpg" alt="Image">
+        </div>
+        <div class="container">
+            <img class="image" src="../images/placeHolder.png" data-src="../images/four.jpg" alt="Image">
+        </div>
+        <div class="container">
+            <img class="image" src="../images/placeHolder.png" data-src="../images/five.jpg" alt="Image">
+        </div>
+        <div class="container">
+            <img class="image" src="../images/placeHolder.png" data-src="../images/six.jpg" alt="Image">
+        </div>
+    </div>
+    <div class="container2">
+        <div class="card">This is the first Card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is a card</div>
+        <div class="card">This is the last Card</div>
+    </div>
+    <div class="visited">
+        <p>Number of times visited: <span id="timesVisited"></span></p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
